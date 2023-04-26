@@ -1,0 +1,15 @@
+@use "./assets/styles/scss/abstracts/general";
+@use "./assets/styles/scss/abstracts/variables";
+
+
+@use "./assets/styles/scss/components/navbar";
+@use "./assets/styles/scss/components/home";
+@use "./assets/styles/scss/components/about";
+@use "./assets/styles/scss/components/skills";
+@use "./assets/styles/scss/components/projects";
+@use "./assets/styles/scss/components/contact";
+@use "./assets/styles/scss/components/footer";
+
+
+@use "./assets/styles/scss/components/button.scss";
+@use "./assets/styles/scss/components/mobile.scss";
