@@ -248,30 +248,66 @@ export const projects = [
 export const skills = [
   {
     id: 1,
+    ico: "bi bi-brush-fill",
     title: "FrontEnd",
     info: "My preferred technologies for Front-End web development and component design.",
     img: [
-      "/src/assets/img/html.svg",
-      "/src/assets/img/css.svg",
-      "/src/assets/img/js.svg",
-      "/src/assets/img/bootstrap.svg",
+      {
+        path: "/src/assets/img/html-project.svg",
+        alt: "html logo",
+      },
+      {
+        path: "/src/assets/img/css-project.svg",
+        alt: "css logo",
+      },
+      {
+        path: "/src/assets/img/js.svg",
+        alt: "javascript logo",
+      },
+      {
+        path: "/src/assets/img/bootstrap.svg",
+        alt: "bootstrap logo",
+      },
     ],
   },
   {
     id: 2,
+    ico: "bi bi-code skills-ico",
     title: "BackEnd",
     info: "My preferred technologies for Back-End web programming.",
     img: [
-      "/src/assets/img/Python.svg",
-      "/src/assets/img/django.svg",
-      "/src/assets/img/mongo.svg",
-      "/src/assets/img/sql.svg",
+      {
+        path: "/src/assets/img/Python.svg",
+        alt: "python logo",
+      },
+      {
+        path: "/src/assets/img/django.svg",
+        alt: "django logo",
+      },
+      {
+        path: "/src/assets/img/mongo.svg",
+        alt: "mongodb logo",
+      },
+      {
+        path: "/src/assets/img/sql.svg",
+        alt: "sql logo",
+      },
     ],
   },
   {
     id: 3,
+    ico: "bi bi-currency-bitcoin skills-ico",
     title: "BlockChain",
     info: "My preferred technologies for BlockChain web programming.",
-    img: ["/src/assets/img/eth.svg", "/src/assets/img/solidity.svg"],
+    img: [
+      {
+        path: "/src/assets/img/eth.svg",
+        alt: "ethereum logo",
+      },
+      {
+        path: "/src/assets/img/solidity.svg",
+        alt: "solidity logo",
+      },
+    ],
   },
 ];
