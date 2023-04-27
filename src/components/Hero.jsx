@@ -1,4 +1,6 @@
 import React from "react";
+import { socialLinks } from "../data";
+
 
 function Hero() {
   return (
@@ -17,27 +19,14 @@ function Hero() {
             Front-End • Back-End • BlockChain Developer
           </p>
           <div className="hero-icons">
-            <a
-              href="https://www.linkedin.com/in/isacco-bertoli-10aa16252/"
-              target="_blank"
-              aria-label="Linkedin Profile"
-            >
-              <i className="bi bi-linkedin ico"></i>
-            </a>
-            <a
-              href="https://github.com/Isacco-B"
-              target="_blank"
-              aria-label="GitHub Profile"
-            >
-              <i className="bi bi-github ico"></i>
-            </a>
-            <a
-              href="mailto:info@isaccobertoli.com"
-              target="_blank"
-              aria-label="Email"
-            >
-              <i className="bi bi-envelope ico"></i>
-            </a>
+            {socialLinks.map((link=>{
+              const {id, href, label, icon} = link;
+              return (
+                <a key={id} href={href} target="blank" aria-label={label}>
+                  <i className={icon}></i>
+                </a>
+              );
+            }))}
           </div>
           <div>
             <a href="#contact">

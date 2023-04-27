@@ -3,7 +3,7 @@ import NavBar from "../components/NavBar";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Skills from "../components/Skills";
-import Projects from "../components/Projects";
+import ProjectsList from "../components/ProjectsList";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
@@ -14,7 +14,7 @@ function Home() {
       <Hero />
       <About />
       <Skills />
-      <Projects />
+      <ProjectsList />
       <Contact />
       <Footer />
     </>

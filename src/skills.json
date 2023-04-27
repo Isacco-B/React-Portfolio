@@ -1,0 +1,33 @@
+[
+  {
+    "id" : 1,
+    "title": "FrontEnd",
+    "info": "My preferred technologies for Front-End web development and component design.",
+    "img": [
+      "/portfolio/src/assets/img/html.svg",
+      "/portfolio/src/assets/img/css.svg",
+      "/portfolio/src/assets/img/js.svg",
+      "/portfolio/src/assets/img/bootstrap.svg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "BackEnd",
+    "info": "My preferred technologies for Back-End web programming.",
+    "img": [
+      "/portfolio/src/assets/img/Python.svg",
+      "/portfolio/src/assets/img/django.svg",
+      "/portfolio/src/assets/img/mongo.svg",
+      "/portfolio/src/assets/img/sql.svg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "BlockChain",
+    "info": "My preferred technologies for BlockChain web programming.",
+    "img": [
+      "/portfolio/src/assets/img/eth.svg",
+      "/portfolio/src/assets/img/solidity.svg"
+    ]
+  }
+]

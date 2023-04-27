@@ -1,0 +1,91 @@
+[
+  {
+    "id" : 1,
+    "title" : "ExchangeBtc Web application",
+    "info" : "The project involves creating a free bitcoin exchange platform using Django and MongoDB",
+    "links" : [
+      {"gitHub" : "https://github.com/Isacco-B/MongodbProject_Start2Impact"},
+      {"demo" : "https://demo2.isaccobertoli.com/"}
+    ],
+    "img" : [
+      "/portfolio/src/assets/img/Python.svg",
+      "/portfolio/src/assets/img/django.svg",
+      "/portfolio/src/assets/img/mongo.svg",
+      "/portfolio/src/assets/img/html-project.svg",
+      "/portfolio/src/assets/img/tailwind.svg"
+    ]
+  },
+  {
+    "id" : 2,
+    "title" : "MigrantSchool Web application",
+    "info" : "Implement a training certificate creation system with an existence proof on the blockchain.",
+    "links" : [
+      {"gitHub" : "https://github.com/Isacco-B/DjangoProject_Start2Impact"},
+      {"demo" : "https://demo1.isaccobertoli.com/"}
+    ],
+    "img" : [
+      "/portfolio/src/assets/img/Python.svg",
+      "/portfolio/src/assets/img/django.svg",
+      "/portfolio/src/assets/img/sql.svg",
+      "/portfolio/src/assets/img/html-project.svg",
+      "/portfolio/src/assets/img/tailwind.svg"
+    ]
+  },
+  {
+    "id" : 3,
+    "title" : "Cryptocurrency Report",
+    "info" : "It's a Python bot that collect and store currencies's data every day in a JSON file",
+    "links" : [
+      {"gitHub" : "https://github.com/Isacco-B/Python-Bot-Cripto"},
+      {"demo" : "https://github.com/Isacco-B/Python-Bot-Cripto"}
+    ],
+    "img" : [
+      "/portfolio/src/assets/img/Python.svg"
+    ]
+  },
+  {
+    "id" : 4,
+    "title" : "Portfolio WebSite",
+    "info" : "My personal site where companies can contact me. Made using Html-Css & javascript",
+    "links" : [
+      {"gitHub" : "https://github.com/Isacco-B/Portfolio"},
+      {"demo" : "https://www.isaccobertoli.com"}
+    ],
+    "img" : [
+      "/portfolio/src/assets/img/html-project.svg",
+      "/portfolio/src/assets/img/css-project.svg",
+      "/portfolio/src/assets/img/sass.svg",
+      "/portfolio/src/assets/img/js.svg"
+    ]
+  },
+  {
+    "id" : 5,
+    "title" : "Javascript News WebSite",
+    "info" : "Show the last 10 news in a card, with title, link and publication time",
+    "links" : [
+      {"gitHub" : "https://github.com/Isacco-B/JsAdvancedProject_Start2Impact"},
+      {"demo" : "https://demo5.isaccobertoli.com/"}
+    ],
+    "img" : [
+      "/portfolio/src/assets/img/html-project.svg",
+      "/portfolio/src/assets/img/css-project.svg",
+      "/portfolio/src/assets/img/sass.svg",
+      "/portfolio/src/assets/img/webpack.svg",
+      "/portfolio/src/assets/img/js.svg"
+    ]
+  },
+  {
+    "id" : 6,
+    "title" : "Javascript Counter",
+    "info" : "It's a simple app made using basic javascript that allows user to increment, decrement, reset or set a number in a counter.",
+    "links" : [
+      {"gitHub" : "https://github.com/Isacco-B/JsBasicProject_Strart2Impact"},
+      {"demo" : "https://demo4.isaccobertoli.com/"}
+    ],
+    "img" : [
+      "/portfolio/src/assets/img/html-project.svg",
+      "/portfolio/src/assets/img/css-project.svg",
+      "/portfolio/src/assets/img/js.svg"
+    ]
+  }
+]

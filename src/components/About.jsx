@@ -1,11 +1,12 @@
 import React from "react";
+import avatar from "../assets/img/avatar.svg"
 
 function About() {
   return (
     <section className="about" id="about">
       <div className="about-container">
         <h1>About Me</h1>
-        <img src="asset/img/avatar.svg" alt="profile picture" />
+        <img src={avatar} alt="profile picture" />
         <p>
           My name is Isacco, I'am 22 years old and i live in a small town in
           Italy. I graduated as an electrician and after years of work i

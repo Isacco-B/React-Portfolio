@@ -1,4 +1,5 @@
 import React from "react";
+import { pageLinks } from "../data";
 
 function NavBar() {
   return (
@@ -8,18 +9,13 @@ function NavBar() {
           <a href="#">Isacco Bertoli</a>
         </div>
         <ul className="navbar-menu" role="list">
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#skills">Skills</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
+          {pageLinks.map((link)=>{
+            return (
+              <li key={link.id}>
+                <a href={link.href}>{link.text}</a>
+              </li>
+            )
+          })}
         </ul>
         <div className="hamburger-ico">
           <img

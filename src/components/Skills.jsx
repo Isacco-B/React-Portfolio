@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useEffect } from 'react'
 
 function Skills() {
+  async function fetchSkill() {
+    const response = await fetch("../../src/skills.json")
+    const data = await response.json()
+    console.log(data)
+  }
+
+  useEffect(()=>{
+    fetchSkill()
+  },[])
   return (
     <section className="skills" id="skills">
       <div className="skills-title">
